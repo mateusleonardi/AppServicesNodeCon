@@ -1,0 +1,252 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "damages": {
+            "bsonType": "object",
+            "properties": {
+                "bug": {
+                    "bsonType": "string"
+                },
+                "dark": {
+                    "bsonType": "string"
+                },
+                "dragon": {
+                    "bsonType": "string"
+                },
+                "electric": {
+                    "bsonType": "string"
+                },
+                "fight": {
+                    "bsonType": "string"
+                },
+                "fire": {
+                    "bsonType": "string"
+                },
+                "flying": {
+                    "bsonType": "string"
+                },
+                "ghost": {
+                    "bsonType": "string"
+                },
+                "grass": {
+                    "bsonType": "string"
+                },
+                "ground": {
+                    "bsonType": "string"
+                },
+                "ice": {
+                    "bsonType": "string"
+                },
+                "normal": {
+                    "bsonType": "string"
+                },
+                "poison": {
+                    "bsonType": "string"
+                },
+                "psychic": {
+                    "bsonType": "string"
+                },
+                "rock": {
+                    "bsonType": "string"
+                },
+                "steel": {
+                    "bsonType": "string"
+                },
+                "water": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "id": {
+            "bsonType": "string"
+        },
+        "img": {
+            "bsonType": "string"
+        },
+        "misc": {
+            "bsonType": "object",
+            "properties": {
+                "abilities": {
+                    "bsonType": "object",
+                    "properties": {
+                        "hidden": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "string"
+                            }
+                        },
+                        "normal": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "string"
+                            }
+                        }
+                    }
+                },
+                "capturerate": {
+                    "bsonType": "string"
+                },
+                "classification": {
+                    "bsonType": "string"
+                },
+                "eggsteps": {
+                    "bsonType": "string"
+                },
+                "entreeforestlevel": {
+                    "bsonType": "string"
+                },
+                "evpoints": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "string"
+                    }
+                },
+                "expgrowth": {
+                    "bsonType": "string"
+                },
+                "fleeflag": {
+                    "bsonType": "string"
+                },
+                "happiness": {
+                    "bsonType": "string"
+                },
+                "height": {
+                    "bsonType": "string"
+                },
+                "sex": {
+                    "bsonType": "object",
+                    "properties": {
+                        "female": {
+                            "bsonType": "string"
+                        },
+                        "male": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "weight": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "moves": {
+            "bsonType": "object",
+            "properties": {
+                "egg": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "gen": {
+                                "bsonType": "string"
+                            },
+                            "name": {
+                                "bsonType": "string"
+                            }
+                        }
+                    }
+                },
+                "gen34": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "method": {
+                                "bsonType": "string"
+                            },
+                            "name": {
+                                "bsonType": "string"
+                            }
+                        }
+                    }
+                },
+                "level": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "gen": {
+                                "bsonType": "string"
+                            },
+                            "learnedat": {
+                                "bsonType": "string"
+                            },
+                            "name": {
+                                "bsonType": "string"
+                            }
+                        }
+                    }
+                },
+                "tmhm": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "gen": {
+                                "bsonType": "string"
+                            },
+                            "learnedat": {
+                                "bsonType": "string"
+                            },
+                            "name": {
+                                "bsonType": "string"
+                            }
+                        }
+                    }
+                },
+                "tutor": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "gen": {
+                                "bsonType": "string"
+                            },
+                            "name": {
+                                "bsonType": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "stats": {
+            "bsonType": "object",
+            "properties": {
+                "attack": {
+                    "bsonType": "string"
+                },
+                "defense": {
+                    "bsonType": "string"
+                },
+                "hp": {
+                    "bsonType": "string"
+                },
+                "spattack": {
+                    "bsonType": "string"
+                },
+                "spdefense": {
+                    "bsonType": "string"
+                },
+                "speed": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "type": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        }
+    },
+    "required": [
+        "_id"
+    ],
+    "title": "pokemon"
+}
