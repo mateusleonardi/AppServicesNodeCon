@@ -3,7 +3,7 @@
     "type": "mongodb-atlas",
     "config": {
         "clusterName": "Sandbox",
-        "readPreference": "primary",
+        "readPreference": "secondary",
         "wireProtocolEnabled": false
     },
     "version": 1
