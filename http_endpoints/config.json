@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "route": "/pokemon",
+        "http_method": "GET",
+        "function_name": "GetPokemon",
+        "validation_method": "SECRET_AS_QUERY_PARAM",
+        "secret_name": "PokemonShiny",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false,
+        "return_type": "JSON"
+    },
+    {
+        "route": "/pokemon",
+        "http_method": "POST",
+        "function_name": "UpsertPokemon",
+        "validation_method": "SECRET_AS_QUERY_PARAM",
+        "secret_name": "PokemonShiny",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false,
+        "return_type": "JSON"
+    }
+]

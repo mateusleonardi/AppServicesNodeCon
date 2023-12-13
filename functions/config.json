@@ -1,1 +1,17 @@
-[]
+[
+    {
+        "name": "GetPokemon",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "UpsertPokemon",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "notifyNewPokemon",
+        "private": true
+    }
+]
